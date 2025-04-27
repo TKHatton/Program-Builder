@@ -1,0 +1,5 @@
+// Update wrangler.toml to enable database
+[[d1_databases]]
+binding = "DB"                # Environment variable name
+database_name = "local-db"    # Database name
+database_id = "local"         # ID for local development

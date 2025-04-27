@@ -1,0 +1,173 @@
+# 🚀 Master AI Agent Instructions for Web App: Full Educational Program Builder
+
+---
+
+## 🎯 Mission:
+You are tasked with designing and building a **complete web application** that guides a user through creating a full educational program.  
+The application must be:
+
+- **Fully deployable to Netlify** within **1–2 upload attempts maximum**  
+- **Attractive and polished**, following the provided **color palette** and **UI inspiration**  
+- **Smooth and clear**, asking the user questions step-by-step  
+- **Generating complete, richly detailed outputs** in **Markdown format**, ready for download
+
+---
+
+## 🛠 Technical Requirements:
+
+- **Web app must generate:** 
+  - Program Overview Document
+  - Full Course Series Document
+  - Assessment Packet
+  - Enhancement Materials Packet (Pre-Survey, Welcome Packet, Implementation Plan, Certificate Template, Showcase Plan)
+
+- **All outputs must be downloadable** (Markdown `.md` files preferred)
+
+- **Frontend and Backend Files must be included**:
+  - Clean project structure (public folder, index.html, CSS/JS if applicable)
+  - package.json or necessary config files if using React, Vite, or similar
+  - README with clear instructions for install → build → deploy
+  - Everything must deploy to Netlify easily, without errors, on the first or second attempt
+
+- **Failure Condition**:  
+  - If app cannot be deployed to Netlify successfully within two tries, consider the task failed.
+
+---
+
+## 🎨 Visual & UX Requirements:
+
+- **Overall Design Style**:  
+  - Simple, clean, welcoming, soft  
+  - Take UI inspiration from [AI Dating Profile Stylist](https://ai-dating-profile-stylist.netlify.app/)
+
+- **Use the following Brand Color Palette**:  
+  - Main Colors:  
+    - `#7a907a` (green-gray)  
+    - `#745d6b` (muted purple)  
+    - `#a85f72` (warm mauve)  
+    - `#cf7a7c` (dusty rose)  
+    - `#e0ae8f` (peachy tan)  
+
+- **Typography**:
+  - Soft, modern fonts (e.g., Open Sans, Poppins, Nunito)
+  - Easy-to-read sizes
+
+- **Spacing and Layout**:
+  - Generous spacing between sections
+  - Visual dividers between major steps
+
+---
+
+## 🧠 Content Flow & Information Gathering:
+
+Guide the user through the following steps **one question at a time**, allowing them to upload or input information:
+
+### 1. Program Setup:
+- What is the Program Title?
+- Who is the Audience? (age, profession, culture)
+- What Emotional Tone should the program convey? (Empowering, Playful, Formal, etc.)
+- What is the Starting Point for the Learner?
+- What is the Desired Transformation?
+- Upload optional Logo file
+- Specify optional Brand Colors (if different from defaults)
+
+### 2. Course Series Creation:
+For each course:
+- Course Title
+- Short Course Summary (4–6 sentences)
+- 3–5 Learning Objectives (each 2–3 sentences long)
+- 4–6 Module Titles + Short Descriptions (each 3–5 sentences)
+- Include for each Module:
+  - Key Concepts (Definitions + 1 real-world example)
+  - 1 short Application Exercise
+- Estimated Time per Module
+- Key Activities or Exercises
+- Required Tools or Materials (if any)
+
+### 3. Assessment Creation:
+- Generate assessments based on learning objectives
+- Include:
+  - 5–10 Multiple Choice Questions
+  - 3–5 Reflection Questions
+  - 2–4 Practical Task Questions
+
+### 4. Enhancement Materials Creation:
+- Pre-Survey (5–10 questions about confidence and goals)
+- Welcome Packet (Friendly intro, Program Overview, FAQ, Success Tips)
+- Implementation Plan (Suggested weekly action steps)
+- Certificate of Completion Template (Program Title, Name, Date, Branding)
+- Showcase Plan (Where and how to share final projects)
+
+### 5. Bonus Resources:
+- Always generate bonus resources for each course
+- Only suggest real, verifiable educational resources:
+  - Books
+  - Academic articles
+  - Public blogs
+  - Reputable podcasts or websites
+- Do not recommend apps, paid tools, or other programs
+
+### 6. Final Confirmation:
+- Review all collected information with the user
+- Allow them to confirm or edit before document generation
+
+---
+
+## 📄 Output Formatting and Downloads:
+
+After final confirmation:
+
+- Generate neatly formatted Markdown files for:
+  - Program Overview
+  - Course Series
+  - Assessments
+  - Enhancement Materials
+- Group them into a zipped folder if needed for easy download.
+
+---
+
+## 📚 Instructional Content Standards:
+
+- Each Course must include:
+  - Full Course Summary (4–6 sentences explaining value)
+  - Learning Objectives (2–3 sentences each, clear outcomes)
+  - Module Content:
+    - 3–5 sentences explaining key ideas
+    - 1 real-world example (or hypothetical clearly labeled if real-world unavailable)
+    - 1 application exercise or reflection
+  - Key Concepts:
+    - Short definitions
+    - Simple explanation + 1 real-world example
+
+- Tone:
+  - Professional but accessible
+  - Clear teaching voice, not marketing voice
+
+- Depth Requirement:
+  - Each course must be 1,000–1,500 words minimum (unless otherwise specified)
+  - Each course should feel complete and actionable on its own
+
+---
+
+## 🔒 Content Accuracy and Hallucination Prevention:
+
+- All outputs must be based on verifiable, real-world knowledge.
+- Do not fabricate books, organizations, brands, or events.
+- Prefer using real-world examples, cases, or companies only if information is factual and verifiable.
+- If unsure, use hypothetical examples and clearly label them ("Imagine you are...").
+- Omit examples entirely if accuracy cannot be confidently maintained.
+
+---
+
+## ✨ Tone and Interaction Style:
+
+- Calm, clear, and encouraging
+- Bold section headers for clarity
+- Bullet points for easy readability
+- Supportive prompts like:
+  - "Great progress — you're doing amazing!"
+  - "Ready to move to the next step?"
+
+---
+
+# 🌟 End of Master AI Agent Instructions

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="#FFD700" stroke="#B8860B" stroke-width="5"/>
+  <circle cx="100" cy="100" r="75" fill="#FFEC8B"/>
+  <path d="M100 40 L115 85 L165 85 L125 115 L140 160 L100 130 L60 160 L75 115 L35 85 L85 85 Z" fill="#B8860B"/>
+  <text x="100" y="180" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#B8860B">FIRST COURSE</text>
+</svg>
