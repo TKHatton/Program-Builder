@@ -1,20 +1,18 @@
 # Netlify configuration file
 [build]
-  base = "/"
   command = "npm run build"
-  publish = "out"
-  ignore_warnings = true
-  
+  publish = ".next"
+
+# Handle Next.js routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables
 [build.environment]
   NODE_VERSION = "20.18.0"
   NPM_VERSION = "10.2.0"
-  NEXT_TELEMETRY_DISABLED = "1"
-
-# Next.js specific settings
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-  [plugins.inputs]
-    staticExport = true
 
 # Set cache headers for static assets
 [[headers]]
