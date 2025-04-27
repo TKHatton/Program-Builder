@@ -1,30 +1,23 @@
 # Netlify configuration file
 [build]
+  base = "/"
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
+  ignore_warnings = true
   
 [build.environment]
   NODE_VERSION = "20.18.0"
   NPM_VERSION = "10.2.0"
+  NEXT_TELEMETRY_DISABLED = "1"
 
 # Next.js specific settings
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-# Handle Next.js routing - this is more appropriate for Next.js than the previous redirect
-[[redirects]]
-  from = "/_next/static/*"
-  to = "/static/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/next/:splat"
-  status = 200
-  force = true
+  [plugins.inputs]
+    staticExport = true
 
 # Set cache headers for static assets
 [[headers]]
-  for = "/_next/static/*"
+  for = "/static/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"

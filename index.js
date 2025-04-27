@@ -1,16 +1,5 @@
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-
-// This file exists to satisfy Netlify's requirement for a pages directory
-// It simply redirects to the app router's home page
+// Simple Next.js page to satisfy the build requirements
 export default function Home() {
-  const router = useRouter();
-  
-  useEffect(() => {
-    // Redirect to the app router's home page
-    router.push('/');
-  }, [router]);
-  
   return (
     <div style={{ 
       display: 'flex', 
@@ -21,7 +10,7 @@ export default function Home() {
       fontFamily: 'system-ui, sans-serif'
     }}>
       <h1>Program Builder</h1>
-      <p>Redirecting to the main application...</p>
+      <p>Welcome to the Program Builder application</p>
     </div>
   );
 }
