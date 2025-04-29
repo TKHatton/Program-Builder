@@ -11,3 +11,15 @@ export function getCloudflareContext() {
     }
   };
 }
+
+// The real Worker handler that Cloudflare expects
+export default {
+  async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+    return new Response("Hello, Lenise! 🎉 Your Program Builder is working!", {
+      status: 200,
+      headers: {
+        "Content-Type": "text/plain",
+      },
+    });
+  }
+};

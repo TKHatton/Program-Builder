@@ -1,5 +1,12 @@
-// Update wrangler.toml to enable database
+# Update wrangler.toml to enable database
+
+name = "program-builder"
+main = "cloudflare.ts"
+compatibility_date = "2025-04-27"
+workers_dev = true
+compatibility_flags = ["nodejs_compat"]
+
 [[d1_databases]]
 binding = "DB"                # Environment variable name
-database_name = "local-db"    # Database name
-database_id = "local"         # ID for local development
+database_name = "program-builder-db"    # Database name
+database_id = "377fc37b-ccf1-4498-ba0b-f6843d6b71ed"         # ID for local development
